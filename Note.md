@@ -324,8 +324,38 @@ Result 4: Follower Count: 42
     - Must be Immutable
     - It must be unique meaning no two same key values shall exist in a single dictionary
  **Values**
- 
+ - Values of a dictionary within a key can be any data type
 
+**Updating a Dicitonary**
+- Can modify exisiting values using key
+- Can add new values toa  dictionary by making new key
+- Can overrite a value at an exisiting key by referencing and recreating the value of it.
+
+**Deletion with Dicitonary**
+- Deleting a key deletes the values in the key
+- Can empty out an entire dicitonary
+- Can delete the dicitionary
+
+**Membership**
+- Can use it in and not use it to check if a key exists in a dictionary
+
+**Dicitionary Methods**
+- To power this **awesome** data strucutre, has methods for it use
+    - A.keys() -> Returns are sequence of keys/Addresses in A
+    - A.Values() -> Returns a sequence of item values in A
+    - A.Items() -> Returns a sequence ok key,item pairs in A
+    - A.get(address) -> Returns the item value at address
+    - A.update(B) -> Extends A with the dictionary of key, value pairs of B
+
+**Iterating a Dicitonary**
+- Three iteration methods
+    1. Iterating the keys
+    2. iterating the values
+    3. iterating the key,value pairs by unpacking
+
+**dict() Constructor Dicitonary Comprehension**
+- Can turn different data types into dictionaries
+- Also supports comprehension like tuples,lists,and sets
 
 
 
