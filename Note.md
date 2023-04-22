@@ -45,7 +45,9 @@ print('Value at Row 2 Column 2: %s' % matrix_A[1][1])
  - The list is a result of some operations that are applied to all of its items
  - Usually made from another sequence or iterable data
  - It is a member of another list,sequence or even iterable data
+
 **List Comprehension 1**:
+
 [*Example*](https://mrparkonline.github.io/courses/datastruct/matrices/)
 ```# Old Method
 squares = []
