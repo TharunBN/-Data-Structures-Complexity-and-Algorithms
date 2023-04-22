@@ -288,6 +288,43 @@ Output: Palindromic Numbers Set from 1 to 10000:
 
 # Dictionary
 
+**Common operations**
+    - Adding a pair
+    - Removing a pair
+    - Modify an exisiting pair
+    - Lookup a value associated with a particular key
+
+**Defining a Dictionary in Python 3**
+- Dictionaries also use {} as sets. But their item format is very different
+[*Example of Dictionary*](https://mrparkonline.github.io/courses/datastruct/dictionary/)
+```
+sammy = {
+    'username': 'sammy',
+    'online': True,
+    'followers': 42
+}
+
+# There are 3 items: each with their unique addresses and value
+# Accessing
+print('Sammy dict:', sammy)
+print('Username:', sammy['username'])
+print('Online Status:', sammy['online'])
+print('Follower Count:', sammy['followers'])
+
+Result 1: Sammy dict: {'username': 'sammy', 'online': True, 'followers': 42}
+Result 2: Username: sammy
+Result 3: Online Status: True
+Result 4: Follower Count: 42
+```
+# Dictionary Properties
+
+**Keys**
+- Keys are unique address for a dictionary values location
+    ~ Key properties ~
+        - Must be Immutable
+        - It must be unique meaning no two same key values shall exist in a single dictionary
+ **Values**
+ 
 
 
 
