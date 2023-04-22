@@ -6,6 +6,7 @@
 - In computer science, you create a data structure that has values in rows and coloumbs by using lists in inside lists. You can also import from Libraries and modules to your python program to help you.
 
 [*Example*]
+
 ![matrix_fig01](https://user-images.githubusercontent.com/129294830/233748137-da7c1133-1ffb-46b3-bb11-f411558898c0.png)
 
 ~ this is a mathematical notation of what a matrix should look ike
