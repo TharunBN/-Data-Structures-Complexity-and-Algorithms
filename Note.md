@@ -177,6 +177,114 @@ Result 3: ('Park',)
 **Tuple Comprehension**
 - If parentheses are taken off, the functionality would change and would be a different functionality in python. Therefore, comprehension would be a must.
 
+**Tuple and Python: Packing and Unpacking**:
+- In Packing, it collects multiples variable values and assigns it to a single variabel
+- Unpacking on the other hand assigns certian values from a tuple to different variables
+- This is a very useful skill because it can be combined with variable arguements for **Function call** and **Function Definition**
+
+# Sets in Python 3:
+- A set in python is an unordered collection that has no duplicate elements
+- Set is a mathematical way to describe collection of different objects
+
+**Using Sets in Python 3**
+[*Example*](https://mrparkonline.github.io/courses/datastruct/sets/)
+```
+example_set1 = {1, 2, 3}
+example_set2 = {'h','e','l','l','o'}
+
+print('example_set1:', example_set1)
+print('example_set2:', example_set2) # Notice there is only 1 'l'; Also notice the order of the values outputted
+print('--')
+
+singleton_set = {7}
+empty_set = set() # this is because {} is reversed for a different feature in python 3.
+
+print('Singleton:', singleton_set)
+print('Empty Set:', empty_set)
+
+Result 1: example_set1: {1, 2, 3}
+Result 2: example_set2: {'o', 'e', 'h', 'l'}
+Result 3: singleton: {7}
+Result 4: Empty Set: set()
+```
+**Basic Membership Operators**:
+- Membership is one the important operations with sets because
+    - it has no duplicates
+    - A sets membership is fast compared to string, list and tuples
+    - By using membership operators, we can identify if a certain target exists in the data or not
+
+**Accessing Values in a set**:
+- there is no concept of inexing or slicing due to its unoordered nature
+- set however it is iterable
+[*Exmaple](https://mrparkonline.github.io/courses/datastruct/sets/)
+```
+example_set = {2,3,5,7,11,13}
+
+for v in example_set:
+    print('Values of example_set:', v)
+Result 1: Values of example_set: 2
+Result 2: Values of example_set: 3
+Result 3: Values of example_set: 5
+Result 4: Values of example_set: 7
+Result 5: Values of example_set: 11
+Result 6: Values of example_set: 13
+
+```
+**Python 3 sets are mutable:Adding and Removing values**
+- Sets are mutable meaning we can add more and remove values
+
+**Powering Up sets; Set operators**
+- Union: Joining or combining of two sets
+- Intersection: Member or items that only exist in both sets
+- Difference: Members/items that only exists in the first set and not the second set.
+- Symmetric Difference: Member or items that exists one or the other set, but not both set
+- Proper Subset: Proper Subset is a Boolean Operator
+- Subset: Another Boolean operator
+- Proper Subset: Another Bolean Operator
+- Superset: Another Booleann Operator
+
+**Disjoint: A set Behaviour Property**
+- When two sets are named as Dijoint due to them not sharing no common values
+    - A & B is empty, this means that A nd B are a disjoint
+[*Example*](https://mrparkonline.github.io/courses/datastruct/sets/)
+```
+set1 = {1,2,3,4}
+set2 = {5,6,7}
+set3 = {1,2,3,4,5}
+
+Result 1: print('set1 intersect set2:', set1 & set2) # Output is an empty set
+Result 2: print('set1 intersect set3:', set1 & set3) # Output is an non-empty set
+Result 3: print('set 1 disjoint set 2 check:', set1.isdisjoint(set2)) # Therefore .isdisjoint() evaluates to True
+Result 4: print('set 1 disjoint set 3 check:', set2.isdisjoint(set3))
+```
+**Assignment operation & Updating Methods**
+- This is a way to affect the original set with another set and then assign the result back to the original
+
+**Set Comprehension**
+[*Exmaple*](https://mrparkonline.github.io/courses/datastruct/sets/)
+```
+# Set Comprehension Example
+def isPalindrome(x):
+    ''' isPalindrome() returns True if string X is a palindrome '''
+    return x == x[::-1]
+
+nums = list(range(1,10000))
+palindromic_set = {num for num in nums if isPalindrome(str(num))}
+
+print('Palindromic Numbers Set from 1 to 10000:')
+print(palindromic_set)
+
+Output: Palindromic Numbers Set from 1 to 10000:
+{1, 2, 3, 4, 5, 6, 7, 8, 9, 515, 11, 6666, 525, 9229, 1551, 4114, 22, 535, 33, 545, 5665, 8228, 3113, 555, 44, 9779, 565, 55, 4664, 7227, 575, 2112, 66, 585, 8778, 77, 3663, 6226, 595, 1111, 88, 606, 7777, 99, 101, 2662, 616, 5225, 111, 626, 6776, 121, 9339, 636, 1661, 4224, 131, 646, 141, 5775, 656, 8338, 151, 3223, 666, 161, 9889, 676, 4774, 7337, 171, 686, 2222, 181, 696, 8888, 3773, 191, 6336, 707, 1221, 202, 717, 7887, 212, 2772, 727, 5335, 222, 737, 6886, 232, 9449, 747, 1771, 4334, 242, 757, 252, 5885, 767, 8448, 3333, 262, 777, 9999, 272, 787, 4884, 7447, 282, 2332, 797, 292, 8998, 808, 3883, 6446, 303, 9009, 818, 1331, 313, 828, 7997, 2882, 323, 5445, 838, 8008, 333, 848, 6996, 343, 9559, 1881, 858, 4444, 7007, 353, 868, 363, 5995, 878, 8558, 3443, 373, 6006, 888, 383, 898, 4994, 7557, 393, 2442, 909, 5005, 404, 919, 3993, 6556, 414, 9119, 929, 1441, 4004, 424, 939, 2992, 434, 5555, 949, 8118, 3003, 444, 959, 9669, 454, 1991, 969, 4554, 7117, 464, 2002, 979, 474, 8668, 989, 3553, 484, 6116, 999, 1001, 494, 7667, 2552, 505, 5115}
+```
+**Ending Notes on Sets**
+- Sets are not sliceable or indexable
+- Sets cannot have other sets inside them
+- Sets do not have order or order of insertion
+- Its possible for sets to give their results unordered
+- Sets dont record a values positon
+
+# Dictionary
 
 
 
