@@ -134,4 +134,49 @@ Result:Palindromic Numbers from 1 to 10,000 [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 
 
 # Tuples in Python 3:
 
+**What are Tuples?**
+
+ - String and lists are basic iterable datat types that are very similar with **minor differences**
+ - With a string, they only allow alphanumeric charatcers and special symbols to represent text
+ - Lists on the other hand allow all type of data types as its items and memebers
+ - Another difference is that strings are immutable while Lists are Mutable
+~ Due to this, it causes problems when trying to follow data structure
+ - it must be immutable
+ - it must allow various datatypes as items
+ - it should be iterable
+ - it should be nestable
+
+**How to use Tuple in Python 3**
+- Tuples use round brackets
+- () is a sign of an empty tuple
+- (50,) this is called a singleton tuple, the comma is a must
+- Tuples are sliceable meaning they are indexable using square brackets
+
+[*Tuple Example*](https://mrparkonline.github.io/courses/datastruct/tuples/)
+```
+tup = ('C', ' Java', 'Python')
+empty_tup = ()
+single_tup = ('Park',)
+
+print(tup)
+print(empty_tup)
+print(single_tup)
+
+Result: ('C', ' Java', 'Python')
+Result 2: ()
+Result 3: ('Park',)
+```
+
+**Tuple Operators**
+- Concatenation: Joining two tuples
+- Repition: Repating a list mutliple times
+- Membership: Check if a value exist in tuple
+
+**Tuple Comprehension**
+- If parentheses are taken off, the functionality would change and would be a different functionality in python. Therefore, comprehension would be a must.
+
+
+
+
+
 
