@@ -29,8 +29,8 @@ matrix_A = [
 print('Row 1: %s' % matrix_A[0]) # Recall: Indexing starts at zero in Python
 print('Value at Row 2 Column 2: %s' % matrix_A[1][1])
 
-*Output*: The first output statement will print Row 1: [1, 2, 3, 4]
-*Output*: The second output statement will print out row 2 Column 2: 6
+#*Output*: The first output statement will print Row 1: [1, 2, 3, 4]
+#*Output*: The second output statement will print out row 2 Column 2: 6
 ```
 - In Python 3, there is no such thing as the 'Matrix'. we use slist within a list
 - All rows must be the same number of values
