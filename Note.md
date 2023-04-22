@@ -1,5 +1,5 @@
 # Matrices & List comprehension
-*Matrices in Python 3*
+# Matrices in Python 3 #
 
 **What is a matrix**
 - A matrix is a representation of numbers, symbols or expressions in a 2-Dimensional Array
@@ -72,5 +72,5 @@ new result: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
     - one or more **For Clause** that explains its members
     - Then a zero or more **If Clause** depending on the complexity of the list
  
-# Map & Filter in python 3:
+# Map & Filter in python 3 #: 
 
