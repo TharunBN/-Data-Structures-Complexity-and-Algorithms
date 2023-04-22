@@ -320,9 +320,9 @@ Result 4: Follower Count: 42
 
 **Keys**
 - Keys are unique address for a dictionary values location
-    ~ Key properties ~
-        - Must be Immutable
-        - It must be unique meaning no two same key values shall exist in a single dictionary
+- Key properties:
+    - Must be Immutable
+    - It must be unique meaning no two same key values shall exist in a single dictionary
  **Values**
  
 
