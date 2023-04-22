@@ -130,7 +130,7 @@ array = list(range(1,10000))
 palindromic_numbers = list(map(int, filter(isPalindrome, map(str, array))))
 print('Palindromic Numbers from 1 to 10,000', palindromicNumbers)
 
-Result:Palindromic Numbers from 1 to 10,000 [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99, 101, 111, 121, 131, 141, 151, 161, 171, 181, 191, 202, 212, 222, 232, 242, 252, 262, 272, 282, 292, 303, 313, 323, 333, 343, 353, 363, 373, 383, 393, 404, 414, 424, 434, 444, 454, 464, 474, 484, 494, 505, 515, 525, 535, 545, 555, 565, 575, 585, 595, 606, 616, 626, 636, 646, 656, 666, 676, 686, 696, 707, 717, 727, 737, 747, 757, 767, 777, 787, 797, 808, 818, 828, 838, 848, 858, 868, 878, 888, 898, 909, 919, 929, 939, 949, 959, 969, 979, 989, 999, 1001, 1111, 1221, 1331, 1441, 1551, 1661, 1771, 1881, 1991, 2002, 2112, 2222, 2332, 2442, 2552, 2662, 2772, 2882, 2992, 3003, 3113, 3223, 3333, 3443, 3553, 3663, 3773, 3883, 3993, 4004, 4114, 4224, 4334, 4444, 4554, 4664, 4774, 4884, 4994, 5005, 5115, 5225, 5335, 5445, 5555, 5665, 5775, 5885, 5995, 6006, 6116, 6226, 6336, 6446, 6556, 6666, 6776, 6886, 6996, 7007, 7117, 7227, 7337, 7447, 7557, 7667, 7777, 7887, 7997, 8008, 8118, 8228, 8338, 8448, 8558, 8668, 8778, 8888, 8998, 9009, 9119, 9229, 9339, 9449, 9559, 9669, 9779, 9889, 9999]
+# Result:Palindromic Numbers from 1 to 10,000 [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 22, 33, 44, 55, 66, 77, 88, 99, 101, 111, 121, 131, 141, 151, 161, 171, 181, 191, 202, 212, 222, 232, 242, 252, 262, 272, 282, 292, 303, 313, 323, 333, 343, 353, 363, 373, 383, 393, 404, 414, 424, 434, 444, 454, 464, 474, 484, 494, 505, 515, 525, 535, 545, 555, 565, 575, 585, 595, 606, 616, 626, 636, 646, 656, 666, 676, 686, 696, 707, 717, 727, 737, 747, 757, 767, 777, 787, 797, 808, 818, 828, 838, 848, 858, 868, 878, 888, 898, 909, 919, 929, 939, 949, 959, 969, 979, 989, 999, 1001, 1111, 1221, 1331, 1441, 1551, 1661, 1771, 1881, 1991, 2002, 2112, 2222, 2332, 2442, 2552, 2662, 2772, 2882, 2992, 3003, 3113, 3223, 3333, 3443, 3553, 3663, 3773, 3883, 3993, 4004, 4114, 4224, 4334, 4444, 4554, 4664, 4774, 4884, 4994, 5005, 5115, 5225, 5335, 5445, 5555, 5665, 5775, 5885, 5995, 6006, 6116, 6226, 6336, 6446, 6556, 6666, 6776, 6886, 6996, 7007, 7117, 7227, 7337, 7447, 7557, 7667, 7777, 7887, 7997, 8008, 8118, 8228, 8338, 8448, 8558, 8668, 8778, 8888, 8998, 9009, 9119, 9229, 9339, 9449, 9559, 9669, 9779, 9889, 9999]
 ```
 ------
 **Composition of Functions**
@@ -166,9 +166,9 @@ print(tup)
 print(empty_tup)
 print(single_tup)
 
-Result: ('C', ' Java', 'Python')
-Result 2: ()
-Result 3: ('Park',)
+#Result: ('C', ' Java', 'Python')
+#Result 2: ()
+#Result 3: ('Park',)
 ```
 
 **Tuple Operators**
@@ -204,10 +204,10 @@ empty_set = set() # this is because {} is reversed for a different feature in py
 print('Singleton:', singleton_set)
 print('Empty Set:', empty_set)
 
-Result 1: example_set1: {1, 2, 3}
-Result 2: example_set2: {'o', 'e', 'h', 'l'}
-Result 3: singleton: {7}
-Result 4: Empty Set: set()
+#Result 1: example_set1: {1, 2, 3}
+#Result 2: example_set2: {'o', 'e', 'h', 'l'}
+#Result 3: singleton: {7}
+#Result 4: Empty Set: set()
 ```
 **Basic Membership Operators**:
 - Membership is one the important operations with sets because
@@ -224,12 +224,12 @@ example_set = {2,3,5,7,11,13}
 
 for v in example_set:
     print('Values of example_set:', v)
-Result 1: Values of example_set: 2
-Result 2: Values of example_set: 3
-Result 3: Values of example_set: 5
-Result 4: Values of example_set: 7
-Result 5: Values of example_set: 11
-Result 6: Values of example_set: 13
+#Result 1: Values of example_set: 2
+#Result 2: Values of example_set: 3
+#Result 3: Values of example_set: 5
+#Result 4: Values of example_set: 7
+#Result 5: Values of example_set: 11
+#Result 6: Values of example_set: 13
 
 ```
 **Python 3 sets are mutable:Adding and Removing values**
@@ -254,10 +254,10 @@ set1 = {1,2,3,4}
 set2 = {5,6,7}
 set3 = {1,2,3,4,5}
 
-Result 1: print('set1 intersect set2:', set1 & set2) # Output is an empty set
-Result 2: print('set1 intersect set3:', set1 & set3) # Output is an non-empty set
-Result 3: print('set 1 disjoint set 2 check:', set1.isdisjoint(set2)) # Therefore .isdisjoint() evaluates to True
-Result 4: print('set 1 disjoint set 3 check:', set2.isdisjoint(set3))
+#Result 1: print('set1 intersect set2:', set1 & set2) # Output is an empty set
+#Result 2: print('set1 intersect set3:', set1 & set3) # Output is an non-empty set
+#Result 3: print('set 1 disjoint set 2 check:', set1.isdisjoint(set2)) # Therefore .isdisjoint() evaluates to True
+#Result 4: print('set 1 disjoint set 3 check:', set2.isdisjoint(set3))
 ```
 **Assignment operation & Updating Methods**
 - This is a way to affect the original set with another set and then assign the result back to the original
@@ -311,10 +311,10 @@ print('Username:', sammy['username'])
 print('Online Status:', sammy['online'])
 print('Follower Count:', sammy['followers'])
 
-Result 1: Sammy dict: {'username': 'sammy', 'online': True, 'followers': 42}
-Result 2: Username: sammy
-Result 3: Online Status: True
-Result 4: Follower Count: 42
+#Result 1: Sammy dict: {'username': 'sammy', 'online': True, 'followers': 42}
+#Result 2: Username: sammy
+#Result 3: Online Status: True
+#Result 4: Follower Count: 42
 ```
 # Dictionary Properties
 
